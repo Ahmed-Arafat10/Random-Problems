@@ -12,10 +12,10 @@ int main()
     for(ll i = 0; i<n; i++) cin>>arr[i];
     for(ll i = 0; i<n; i++)
     {
-        ll rest = target - arr[i];
-        if(mp.find(rest) != mp.end())
+        ll Diff = target - arr[i];
+        if(mp.find(Diff) != mp.end())
         {
-            cout<<i<<" "<<mp[rest]<<"\n";
+            cout<<i<<" "<<mp[Diff]<<"\n";
         }/// 2 4 4    Target = 8
         else   mp[ arr[i] ]  = i;
     }
