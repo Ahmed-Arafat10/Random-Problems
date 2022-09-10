@@ -1,6 +1,7 @@
 #include <bits/stdc++.h>
 typedef long long ll;
 using namespace std;
+// hint : use 2 passes of bubble sort
 int main()
 {
     ll n;
